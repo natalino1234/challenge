@@ -1,23 +1,13 @@
 import React,{Component} from 'react';
+import Tabela from './components/Tabela/Tabela';
 
 class App extends Component {
 
-  constructor(props){
-    super(props);
-    this.state = {
-      pilha: Pilha
-    }
-  }
-
   render(){
 
-    /*return (
+    return (
       <div className="App">
-      </div>
-    );*/
-return (
-      <div className="App">
-        
+        <Tabela></Tabela>
       </div>
     );
   }
